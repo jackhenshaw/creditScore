@@ -4,6 +4,11 @@
 Looking at a dataset taken from kaggle (https://www.kaggle.com/datasets/parisrohan/credit-score-classification), can I build a ML model to accurately predict someones credit score.
 
 ## Current Status
-Presently just cleaning up the data such that I can start building different ML models and test how accurately I can predict someone's credit score.
-Already I can see areas in which I have approximated missing data and therefore there is potential to alter how I deal with this missing data and consequently this could improve (or make worse) my ML models but we shall see.
-Plan is to test a Neural Network using TensorFlow but as the dataset has just 3 categories for credit score (good, standard, poor) I will also look into the models provided by Scikit-Learn.
+Just finished cleaning up the data by filling in missing data. 
+Already I can see areas in which I have approximated missing data in maybe a suboptimal way and therefore there is potential to alter how I deal with this missing data and consequently this could improve (or make worse) my ML models but we shall see.
+Plan is to test a Neural Network using TensorFlow but I will also look into the models provided by Scikit-Learn.
+
+## What I've learned
+- In hindsight, if I had spent a bit more time observing why a large proportion of the numerical columns were not in fact numerical I could have saved myself some time by writing a more generic function to correct this.
+- The display() function in jupyter notebooks massively helped in trying to debug the function written to fill in missing data from "Credit_History_Age".
+- The ffill() and bfill() functions are very useful in filling in missing data which is either the same for a number of rows or follows some sequential pattern like in the case of this notebook.
