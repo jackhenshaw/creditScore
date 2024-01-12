@@ -1,4 +1,4 @@
-# Predicting Credit Score (WIP) - 74% accuracy
+# Predicting Credit Score (WIP) - 82% accuracy
 
 ## Short Description
 Looking at a dataset taken from kaggle (https://www.kaggle.com/datasets/parisrohan/credit-score-classification), can I build a ML model to accurately predict someones credit score.
@@ -9,7 +9,8 @@ Looking at a dataset taken from kaggle (https://www.kaggle.com/datasets/parisroh
 - Added a Neural Network (NN) using TensorFlow and have managed to achieve an accuracy of 69%.
 - By using SMOTE (Synthetic Minority Oversampling TEchnique) I corrected for the imbalanced data set and improved the accuracy of the NN to 74%.
 - The plan is to now look into the models provided by Scikit-Learn and see if I can improve this score.
-  - Implemented Logistic Regression model although performance was 64% without SMOTE and 67% with SMOTE so performed worse than the NN. 
+  - Implemented Logistic Regression model although performance was 64% without SMOTE and 67% with SMOTE so performed worse than the NN.
+  - Implemented K-Nearest Neighbours (with SMOTE) with accuracy 82%.
 
 ## What I've learned
 - In hindsight, if I had spent a bit more time observing why a large proportion of the numerical columns were not in fact numerical I could have saved myself some time by writing a more generic function to correct this.
