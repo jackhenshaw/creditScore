@@ -2,16 +2,17 @@
 
 ## Results
 
-| Method                        |  Accuracy | 
-|-------------------------------|-----------|
-| Random Forest (SMOTE)         |   85.99%  | 
-| KNN (SMOTE)                   |   82.11%  | 
-| Decision Tree (SMOTE)         |   77.41%  | 
-| SVM (SMOTE)                   |   74.55%  | 
-| Neural Network (SMOTE)        |   74.29%  | 
-| Neural Network                |   68.74%  | 
-| Logistic Regression (SMOTE)   |   67.01%  | 
-| Logistic Regression           |   64.49%  |
+| Method                                 |  Accuracy | 
+|----------------------------------------|-----------|
+| Random Forest (SMOTE)                  |   85.99%  | 
+| KNN (SMOTE)                            |   82.11%  | 
+| HistGradientBoostingClassifier (SMOTE) |   80.96%  |
+| Decision Tree (SMOTE)                  |   77.41%  | 
+| SVM (SMOTE)                            |   74.55%  | 
+| Neural Network (SMOTE)                 |   74.29%  | 
+| Neural Network                         |   68.74%  | 
+| Logistic Regression (SMOTE)            |   67.01%  | 
+| Logistic Regression                    |   64.49%  |
 
 ## Short Description
 Took dataset from kaggle (https://www.kaggle.com/datasets/parisrohan/credit-score-classification), cleaned up the data, performed EDA followed by testing a whole range of ML models.
@@ -25,7 +26,8 @@ Took dataset from kaggle (https://www.kaggle.com/datasets/parisrohan/credit-scor
   - Implemented Logistic Regression model although performance was 64% without SMOTE and 67% with SMOTE so performed worse than the NN.
   - Implemented K-Nearest Neighbours (with SMOTE) with 82% accuracy.
   - Implemented SVM model (with SMOTE) with 74% accuracy.
-  - Implemented both Decision Tree (78%) and Random Forest Classifiers (86% accuracy).
+  - Implemented both Decision Tree (78% accuracy) and Random Forest Classifiers (86% accuracy).
+  - Implemented a HistGradientBoosting Classifier (81% accuracy) after reading it might perform better than the Random Forest. Sadly it did not, I think for multiclass classifications this is not always true.
 - Can I use GridSearch to fine tune the Random Forest Classifier?
 
 ## What I've learned
