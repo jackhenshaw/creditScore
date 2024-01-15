@@ -34,5 +34,5 @@ Took dataset from kaggle (https://www.kaggle.com/datasets/parisrohan/credit-scor
 - In hindsight, if I had spent a bit more time observing why a large proportion of the numerical columns were not in fact numerical I could have saved myself some time by writing a more generic function to correct this.
 - The display() function in jupyter notebooks massively helped in trying to debug the function written to fill in missing data from "Credit_History_Age".
 - The ffill() and bfill() functions are very useful in filling in missing data which is either the same for a number of rows or follows some sequential pattern like in the case of this notebook.
-- Another in hindsight, I think splitting the notebook into separate categories (e.g preparing the data, further EDA, ML training) might speed up the overall process and improve readability of the code
+- Another in hindsight, I think splitting the notebook into separate categories (e.g preparing the data, further EDA, ML training) might speed up the overall process and improve readability of the code -> Now implemented this.
 - Methods to correct an imbalanced dataset are very useful in improving the performance of ML models. In this case I used Synthetic Minority Oversampling TEchnique (SMOTE).
