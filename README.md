@@ -1,6 +1,7 @@
-# Predicting Credit Score Bracket (WIP) - 86% accuracy
+# Predicting Credit Score Bracket (WIP) - 87% accuracy
 
 ## Results
+Further feature engineering has increased the accuracy up to 87.07% using a Random Forest model and the SMOTE for oversampling the imbalanced dataset.
 
 | Method                                 |  Accuracy | 
 |----------------------------------------|-----------|
@@ -28,7 +29,7 @@ Took dataset from kaggle (https://www.kaggle.com/datasets/parisrohan/credit-scor
   - Implemented SVM model (with SMOTE) with 74% accuracy.
   - Implemented both Decision Tree (78% accuracy) and Random Forest Classifiers (86% accuracy).
   - Implemented a HistGradientBoosting Classifier (81% accuracy) after reading it might perform better than the Random Forest. Sadly it did not, I think for multiclass classifications this is not always true.
-- Can I use GridSearch to fine tune the Random Forest Classifier?
+- Can I use GridSearch to fine tune the Random Forest Classifier? -> First let's try feature engineering to improve performance.
 
 ## What I've learned
 - In hindsight, if I had spent a bit more time observing why a large proportion of the numerical columns were not in fact numerical I could have saved myself some time by writing a more generic function to correct this.
