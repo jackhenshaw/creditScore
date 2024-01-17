@@ -1,7 +1,7 @@
 # Predicting Credit Score Bracket (WIP) - 87% accuracy
 
 ## Results
-Further feature engineering has increased the accuracy up to 87.07% using a Random Forest model and the SMOTE for oversampling the imbalanced dataset.
+Further feature engineering has increased the accuracy up to 87.12% using a Random Forest model and the SMOTE for oversampling the imbalanced dataset.
 
 | Method                                 |  Accuracy | 
 |----------------------------------------|-----------|
