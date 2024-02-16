@@ -47,7 +47,7 @@ Accuracy and f1-scores for all (untuned) models are shown below:
 | Logistic Regression                    | 63.46%   |
 
 ## What I've learned
-- In hindsight, if I had spent a bit more time observing why a large proportion of the numerical columns were not in fact numerical I could have saved myself some time by writing a more generic function to correct this.
+- In hindsight, if I had spent a bit more time observing why a large proportion of the numerical columns were not in fact numerical I could have saved myself some time by writing a more generic function to correct this. -> This is now done in the source file data_cleaning.py
 - The display() function in jupyter notebooks massively helped in trying to debug the function written to fill in missing data from "Credit_History_Age".
 - The ffill() and bfill() functions are very useful in filling in missing data which is either the same for a number of rows or follows some sequential pattern like in the case of this notebook.
 - Another in hindsight, I think splitting the notebook into separate categories (e.g preparing the data, further EDA, ML training) might speed up the overall process and improve readability of the code -> I did implement this in the end.
