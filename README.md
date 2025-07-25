@@ -1,4 +1,7 @@
 # Predicting Credit Score Bracket - 87.6% accuracy
+
+**Disclaimer:** This project was created early in my learning journey and demonstrates foundational machine learning concepts. While basic, it showcases my initial exploration of supervised learning techniques.
+
 ## Short Description
 Took dataset from kaggle (https://www.kaggle.com/datasets/parisrohan/credit-score-classification): cleaned the data, performed feature engineering on missing values, performed EDA looking at correlations, followed by testing a whole range of ML models.
 
